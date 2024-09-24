@@ -76,13 +76,14 @@ int main()
 
     // jawaban no 3 a
     p1 = &x;
-    cout <<"Alamat memori dari p1 adalah : "<< &p1 << endl;
+    cout <<"Jawaban no 3 A"<<endl;
+    cout <<"Value dari p1 adalah : "<< p1 << endl;
     cout <<"Nilai value yg dituju dari p1 adalah : "<< *p1 << endl;
-    cout <<"Nilai dari p1 adalah : "<< p1 << endl;
-    // cout <<"lokasi memori dari x adalah : "<< x << endl;
+    cout <<"Alamat memori dari p1 adalah : "<< &p1 << endl;
     cout <<"--------------------------------------"<< endl;
     // jawaban no 3 b
     *p1 = y;
+    cout <<"Jawaban no 3 B"<<endl;
     cout <<"Nilai dari p1 adalah : "<< *p1 << endl;
     cout <<"alamat memori dari p1 adalah : "<< &*p1 << endl;
     cout <<"Value dari nilai yg dituju adalah : "<< *p1 << endl;
@@ -90,6 +91,7 @@ int main()
 
 
     // Jawaban dari tugas ke 2
+    
     
 
 }
