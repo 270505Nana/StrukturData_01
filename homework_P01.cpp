@@ -85,6 +85,7 @@ int main()
     *p1 = y;
     cout <<"Jawaban no 3 B"<<endl;
     cout <<"Nilai dari p1 adalah : "<< *p1 << endl;
+    // Harusnya berisikan 
     cout <<"alamat memori dari p1 adalah : "<< &*p1 << endl;
     cout <<"Value dari nilai yg dituju adalah : "<< *p1 << endl;
     cout <<"--------------------------------------"<< endl;
